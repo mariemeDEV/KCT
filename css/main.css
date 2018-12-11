@@ -17,6 +17,19 @@
 
 }
 
+.dynamic-text{
+    background-color: #fff;
+    width: 500px;
+    right: 10%;
+    top: 49%;
+    position: absolute;
+    z-index: 1;
+    padding: 40px;
+    box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.03);
+    z-index: 2;
+    height: 350px;
+}
+
 /* Desktops and laptops ----------- */
 @media only screen 
 and (min-width : 1224px) {
@@ -43,6 +56,12 @@ and (min-width : 1224px) {
         background-color: #2b99d6;
         height:50px;
         line-height: 40px;
+    }
+    .burg img{
+        display:none
+    }
+    .burger-menu{
+       display:none
     }
     /* Links inside the navbar */
     .main-menu li {
@@ -77,7 +96,7 @@ and (min-width : 1224px) {
     .menu-bottom-content-right a{
         display: inline-block;
         color: #2b99d6;
-        padding: 25px 12px;
+        padding: 25px 15px;
         text-decoration: none;
         font-size:16px;
         font-weight:bold
@@ -345,18 +364,6 @@ and (min-width : 1224px) {
         background: url('../images/IMG-1_Realisation.jpg') center no-repeat;
         background-size: cover;
     }
-    .dynamic-text{
-        background-color: #fff;
-        width: 500px;
-        right: 10%;
-        top: 49%;
-        position: absolute;
-        z-index: 1;
-        padding: 40px;
-        box-shadow: 0px 0px 20px 12px rgba(0, 0, 0, 0.03);
-        z-index: 2;
-        height: 350px;
-    }
     .dynamic-text-title{
         color:#2b99d6;
         padding-left:17px;
@@ -549,10 +556,15 @@ and (min-width : 1224px) {
         background-repeat:no-repeat;
         margin-top:12px;
     }
+    .item-footer{
+        width:calc( (100% / 5) + -18px );
+        display:inline-block;
+        margin-right:15px;
+        vertical-align: top
+    }
     .page-footer{
         background-color:#2B99E3;
         height:450px;
-        padding-top:40px
     }
     /**************************************************************************End container 5******************************************/
 
@@ -565,12 +577,19 @@ and (min-width : 1224px) {
     .footer-bottom-content {
         background-color:#175d9e;
     }
+    .text p{
+        color:white
+    }
     .end-text{
         line-height:4.5rem;
         font-size:14px;
         color:#fff;
-        position:relative;
-        left:72px
+    }
+    .box-social{
+        display: flex;
+    }
+    .box-social li{
+        margin-right:15px
     }
 }
 /* End laptop */

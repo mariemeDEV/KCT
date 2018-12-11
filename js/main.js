@@ -2,6 +2,11 @@ $(document).ready(function(){
     
     var s1 = $('#s1');
     var s2 = $('#s2');
+
+    $(".hamburger").click(function(){
+        // alert("burger walks")
+        $(".burger-menu").slideToggle("slow");
+    })
     
     s1.owlCarousel({
         loop:true,

@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="css/bootstrap.min.css" rel="stylesheet" >
     <link href="css/bootstrap-theme.min.css" rel="stylesheet" >
-    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/e355990736/UntitledProject/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./css/owl_carousel.min.css">
     <link rel="stylesheet" href="./css/owl_theme.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
@@ -16,13 +16,16 @@
 </head>
 
 <body>
-
     <div class="box-header">
         <div class="top-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12">
-                        <ul class="main-menu">
+                <div class="col-md-2 burg">
+                    <div class="header-top">
+                        <img src="images/threelines.png" class="hamburger" />
+                    </div>
+                    <div class="burger-menu">
+                        <ul>
                             <li><a href="#">Réalisations</a></li>
                             <li><a href="#">Actualités</a></li>
                             <li><a href="#">Publications</a></li>
@@ -31,8 +34,18 @@
                         </ul>
                     </div>
                 </div>
+                <div class="col-md-10">
+                    <ul class="main-menu">
+                        <li><a href="#">Réalisations</a></li>
+                        <li><a href="#">Actualités</a></li>
+                        <li><a href="#">Publications</a></li>
+                        <li><a href="#">Archives</a></li>
+                        <li><a href="#">Espace média</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
+    </div>
 
         <div class="bottom-header">
             <div class="container">
@@ -326,11 +339,10 @@
     </div><!--end fifth content-->
 
     <footer><!--begin footer-->
-    <div class="container-fluid page-footer"><!--begin footer-->
-            <div class="container-fluid"><!--begin top footer-->
+    <div class="page-footer"><!--begin footer-->
+            <div class="container"><!--begin top footer-->
                 <div class="row footer-top">
-                    <div class="col-lg-1"></div>
-                    <div class="col-lg-2">
+                    <div class="item-footer">
                         <ul class="block block1">
                             <li class="block-title">Connaitre KCT</li>
                             <li><a href="#">Historique et évolution</a></li>
@@ -343,8 +355,7 @@
                             <li><a href="#">Politique managériale</a></li>
                         </ul>
                     </div>
-
-                    <div class="col-lg-2">
+                    <div class="item-footer">
                         <ul class="block block2">
                             <li class="block-title">Innovations</li>
                             <li><a href="#">Projet d'entreprise</a></a></li>
@@ -352,15 +363,15 @@
                             <li><a href="#">Politique de maintenance</a></li>
                         </ul>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="item-footer">
                         <ul class="block block3">
-                            <li class="block-title">R&B</li>
+                            <li class="block-title">RSE</li>
                             <li><a href="#">Qualité et environnement</a></li>
                             <li><a href="#">Sûreté et sécurité</a></li>
                             <li class="carriere">Carrière</li>
                         </ul>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="item-footer">
                         <ul class="block block4">
                             <li class="block-title">Matériels</li>
                             <li><a href="#">Politique de quaie</a></li>
@@ -368,16 +379,19 @@
                             <li><a href="#">Politique de parc</a></li>
                             <li><a href="#">Reachtakers et tracteurs</a></li>
                             <li class="materiels">
-                                <div class="row text">Social</div>
-                                <div class="row images" style="display: flex;margin: 6px -7px 0 -36px;">
-                                    <div class="col-md-4"><a href="#"><span class="icon-facebook"  style="color:white;font-size: 30px"></span></a></div>
-                                    <div class="col-md-4"><a href="#"><span class="icon-twitter"   style="color:white;font-size: 30px"></span></a></div>
-                                    <div class="col-md-4"><a href="#"><span class="icon-linkedin2" style="color:white;font-size: 30px"></span></a></div>
+                                <div class="row text">
+                                    <p>Social</p>
+                                    <ul class="box-social">
+                                        <li class="social-icon"><a href="#"><span class="fa fa-facebook"  style="color:white;font-size: 30px"></span></a></li>
+                                        <li class="social-icon"><a href="#"><span class="fa fa-twitter"   style="color:white;font-size: 30px"></span></a></li>
+                                        <li class="social-icon"><a href="#"><span class="fa fa-linkedin" style="color:white;font-size: 30px"></span></a></li>
+                                    </ul>
+
                                 </div>
                             </li>
                         </ul>
                     </div>
-                    <div class="col-lg-2">
+                    <div class="item-footer">
                         <ul class="block block5">
                             <li class="block-title">Services</li>
                             <li><a href="#">Politique de quaie</a></li>
